@@ -26,16 +26,16 @@ The results demonstrated varied performance across different preprocessing techn
 
 | Preprocessing Approach | Selected Model     | Optimal Parameters                                  | Best CV F1 Score | Testing F1 Score |
 |------------------------|--------------------|------------------------------------------------------|------------------|------------------|
-| baseline               | SVM                | `alpha: 0.001, modelClassifier_penalty: l2`          | 0.9586           | 0.9189           |
+| baseline               | SVM                | `modelClassifier_alpha: 0.001, modelClassifier_penalty: l2`          | 0.9586           | 0.9189           |
 | baseline               | Naive Bayes        | `modelClassifier_alpha: 0.1`                         | 0.9433           | 0.9449           |
 | baseline               | Logistic Regression| `modelClassifier_alpha: 0.1`                         | 0.9283           | 0.9414           |
-| stem                   | SVM                | `alpha: 0.001, modelClassifier_penalty: l2`          | 0.9504           | 0.9315           |
+| stem                   | SVM                | `modelClassifier_alpha: 0.001, modelClassifier_penalty: l2`          | 0.9504           | 0.9315           |
 | stem                   | Naive Bayes        | `modelClassifier_alpha: 0.1`                         | 0.9425           | 0.9577           |
 | stem                   | Logistic Regression| `modelClassifier_alpha: 0.1, modelClassifier_penalty: l2` | 0.9577           | 0.9419           |
-| lemmatize              | SVM                | `alpha: 0.001, modelClassifier_penalty: l2`          | 0.9492           | 0.9492           |
+| lemmatize              | SVM                | `modelClassifier_alpha: 0.001, modelClassifier_penalty: l2`          | 0.9492           | 0.9492           |
 | lemmatize              | Naive Bayes        | `modelClassifier_alpha: 0.1`                         | 0.9281           | 0.9275           |
 | lemmatize              | Logistic Regression| `modelClassifier_alpha: 0.1`                         | 0.9470           | 0.9446           |
-| bigrams                | SVM                | `alpha: 0.001, modelClassifier_penalty: l2`          | 0.9437           | 0.9296           |
+| bigrams                | SVM                | `modelClassifier_alpha: 0.001, modelClassifier_penalty: l2`          | 0.9437           | 0.9296           |
 | bigrams                | Naive Bayes        | `modelClassifier_alpha: 0.1`                         | 0.9408           | 0.9315           |
 | bigrams                | Logistic Regression| `modelClassifier_alpha: 0.1`                         | 0.9148           | 0.9315           |
 
